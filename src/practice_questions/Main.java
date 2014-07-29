@@ -1,13 +1,19 @@
 package practice_questions;
 
 public class Main {
+
   public static void main(String[] args) {
-    /**
-     *                          Node 1 (10)
-     *             Node 2 (8)                    Node 3 (15)
-     *     Node 4 (6)
-     * Node 5 (4)
-     */
+    Permutations_3096.permuteString("abcd");
+  }
+  
+/*
+  public static void main(String[] args) {
+    //
+    //                          Node 1 (10)
+    //             Node 2 (8)                    Node 3 (15)
+    //     Node 4 (6)
+    // Node 5 (4)
+    //
     
     BinaryTreeNode_1856<Integer> node1 = new BinaryTreeNode_1856<Integer>(10);
     BinaryTreeNode_1856<Integer> node2 = new BinaryTreeNode_1856<Integer>(8);
@@ -24,7 +30,7 @@ public class Main {
     BinaryTreeNodeHelper_1957<Integer> helper = new BinaryTreeNodeHelper_1957<Integer>(node1);
     System.out.println(helper.findLCA(node2, node3).getValue());
   }
-
+*/
 /*
   public static void main(String[] args) {
     BinaryTreeNode_1856<Integer> node1 = new BinaryTreeNode_1856<Integer>(1);
