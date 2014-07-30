@@ -3,9 +3,15 @@ package practice_questions;
 public class Main {
 
   public static void main(String[] args) {
+    String longest =
+        LongestRepeatingTwoCharSubstring.getLongestRepeatingTwoCharSubString("ababababccccccccccccccccc");
+    System.out.println(longest);
+  }
+/*
+  public static void main(String[] args) {
     Permutations_3096.permuteString("abcd");
   }
-  
+*/
 /*
   public static void main(String[] args) {
     //
