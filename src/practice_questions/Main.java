@@ -1,7 +1,7 @@
 package practice_questions;
 
 public class Main {
-  
+
   public static int numOnesInBinary(int n) {
     
     if (n < 0) return -1;
@@ -18,8 +18,8 @@ public class Main {
     }
     
     return result;
-}
-  
+  }
+
   public static void main(String[] args) {
     System.out.println(numOnesInBinary(5));
   }
@@ -40,6 +40,62 @@ public class Main {
     System.out.println(helper.isCyclicList());
   }
 */
+/*
+
+  public static void main(String[] args) {
+    String longest =
+        LongestRepeatingTwoCharSubstring.getLongestRepeatingTwoCharSubString("ababababccccccccccccccccc");
+    System.out.println(longest);
+  }
+/*
+  public static void main(String[] args) {
+    Permutations_3096.permuteString("abcd");
+  }
+*/
+/*
+  public static void main(String[] args) {
+    //
+    //                          Node 1 (10)
+    //             Node 2 (8)                    Node 3 (15)
+    //     Node 4 (6)
+    // Node 5 (4)
+    //
+    
+    BinaryTreeNode_1856<Integer> node1 = new BinaryTreeNode_1856<Integer>(10);
+    BinaryTreeNode_1856<Integer> node2 = new BinaryTreeNode_1856<Integer>(8);
+    BinaryTreeNode_1856<Integer> node3 = new BinaryTreeNode_1856<Integer>(15);
+    BinaryTreeNode_1856<Integer> node4 = new BinaryTreeNode_1856<Integer>(6);
+    BinaryTreeNode_1856<Integer> node5 = new BinaryTreeNode_1856<Integer>(4);
+
+    node1.setLeftChild(node2);
+    node1.setRightChild(node3);
+
+    node2.setLeftChild(node4);
+    node4.setLeftChild(node5);
+
+    BinaryTreeNodeHelper_1957<Integer> helper = new BinaryTreeNodeHelper_1957<Integer>(node1);
+    System.out.println(helper.findLCA(node2, node3).getValue());
+  }
+*/
+/*
+  public static void main(String[] args) {
+    BinaryTreeNode_1856<Integer> node1 = new BinaryTreeNode_1856<Integer>(1);
+    BinaryTreeNode_1856<Integer> node2 = new BinaryTreeNode_1856<Integer>(2);
+    BinaryTreeNode_1856<Integer> node3 = new BinaryTreeNode_1856<Integer>(3);
+    BinaryTreeNode_1856<Integer> node4 = new BinaryTreeNode_1856<Integer>(4);
+    BinaryTreeNode_1856<Integer> node5 = new BinaryTreeNode_1856<Integer>(5);
+
+    node1.setLeftChild(node2);
+    node1.setRightChild(node3);
+
+    node2.setLeftChild(node4);
+    node4.setLeftChild(node5);
+
+    BinaryTreeNodeHelper_1856<Integer> helper = new BinaryTreeNodeHelper_1856<Integer>();
+    System.out.println(helper.getHeight(node1));
+  }
+*/
+
 /*
   public static void main(String[] args) {
     SinglyLinkedListNode_1342<Integer> node1 = new SinglyLinkedListNode_1342<Integer>(1);
